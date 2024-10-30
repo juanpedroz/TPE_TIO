@@ -1,0 +1,9 @@
+Roles:
+
+Líder : Juan Zugbi
+
+Frontend: Ana Rodriguez
+
+backend: Micaela Amerio
+
+QA: Kevin Artola
