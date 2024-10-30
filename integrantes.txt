@@ -7,3 +7,7 @@ Frontend: Ana Rodriguez
 backend: Micaela Amerio
 
 QA: Kevin Artola
+
+
+Descripción de la app
+Se desarrollará una aplicación para la gestión de una clínica veterinaria. En esta app se tendrá en cuenta la gestión de turnos, listado de productos y servicios entre otras funcionalidades requeridas por el cliente.
