@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.34-dev-7, created on 2024-11-01 20:42:47
+/* Smarty version 3.1.34-dev-7, created on 2024-11-01 20:48:10
   from 'C:\xampp\htdocs\tpe_tio\templates\home.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.34-dev-7',
-  'unifunc' => 'content_67252f37901051_32227080',
+  'unifunc' => 'content_6725307a8aced8_36516754',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'c13d784111a5df2e929fedac656adf9092acefde' => 
     array (
       0 => 'C:\\xampp\\htdocs\\tpe_tio\\templates\\home.tpl',
-      1 => 1730490164,
+      1 => 1730490486,
       2 => 'file',
     ),
   ),
@@ -20,19 +20,113 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67252f37901051_32227080 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6725307a8aced8_36516754 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clivet Rauch - Veterinaria</title>
-    <link rel="stylesheet" href="../css/styles.css"> <!-- Enlace al archivo CSS -->
+   <!-- <link rel="stylesheet" href="../css/styles.css">  Enlace al archivo CSS -->
 </head>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.header {
+    background-color: #5a8f7b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.intro h2 {
+    font-size: 2em;
+    color: #5a8f7b;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.feature {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;
+}
+
+.feature h3 {
+    color: #5a8f7b;
+    margin-bottom: 10px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #5a8f7b;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #477563;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+</style>
 <body>
     <!-- Encabezado -->
     <header class="header">
-    <img src="../imagenes/logo.jpg">
         <h1>Bienvenidos a Clivet Rauch</h1>
         <p>Tu veterinaria de confianza</p>
         <nav class="nav">
