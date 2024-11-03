@@ -7,7 +7,7 @@
    <!-- <link rel="stylesheet" href="../css/styles.css">  Enlace al archivo CSS -->
 </head>
 <style>
-* {
+ {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
