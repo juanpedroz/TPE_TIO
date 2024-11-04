@@ -1,6 +1,7 @@
 <?php
 require_once "controllers/general.controller.php";
-require_once 'controllers/aut.controller.php';
+require_once 'controllers/AutController.php';
+
 
     define('BASE_URL', '//'.$_SERVER['SERVER_NAME'] . ':' . $_SERVER['SERVER_PORT'] . dirname($_SERVER['PHP_SELF']).'/'); //constante se usa para generar automáticamente la URL base de una aplicación web, de forma dinámica,
     

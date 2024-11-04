@@ -1,7 +1,7 @@
 <?php
 
-require_once 'views/aut.view.php'; 
-require_once 'models/aut.model.php';
+require_once 'views/autview.php'; 
+require_once 'models/autModel.php';
 
 class AutController {
 
@@ -10,7 +10,7 @@ class AutController {
 
     public function __construct() {
         $this->model = new Autmodel();
-        $this->view = new Autview();
+        $this->view = new autView();
     }
 
     public function showLogin() {

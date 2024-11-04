@@ -17,12 +17,12 @@ class ProductController {
         $this->view->ViewHome(); 
     }
 
-    public function productsByCateg($id){
+  /*  public function productsByCateg($id){
         $products = $this->model->getProductsByCateg($id);
         $this->view->viewProductsByCateg($products); 
-        //var_dump($products); 
+        //var_dump($products); */
 
-    }
+    
 
     public function showAllProducts(){
         $products = $this->model->getAllProducts();
