@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.34-dev-7, created on 2024-11-01 20:48:10
+/* Smarty version 3.1.34-dev-7, created on 2024-11-04 19:55:28
   from 'C:\xampp\htdocs\tpe_tio\templates\home.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.34-dev-7',
-  'unifunc' => 'content_6725307a8aced8_36516754',
+  'unifunc' => 'content_672918a086d7a1_38113367',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'c13d784111a5df2e929fedac656adf9092acefde' => 
     array (
       0 => 'C:\\xampp\\htdocs\\tpe_tio\\templates\\home.tpl',
-      1 => 1730490486,
+      1 => 1730671503,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6725307a8aced8_36516754 (Smarty_Internal_Template $_smarty_tpl) {
+function content_672918a086d7a1_38113367 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="es">
 <head>
@@ -30,7 +30,7 @@ function content_6725307a8aced8_36516754 (Smarty_Internal_Template $_smarty_tpl)
    <!-- <link rel="stylesheet" href="../css/styles.css">  Enlace al archivo CSS -->
 </head>
 <style>
-* {
+ {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
